@@ -13,6 +13,10 @@ pip install logging_rate_limiter
 
 #### Usage
 - check `tests/test_logging.py` for a complete example
+- the filter is available as
+```
+from logging_rate_limiter.utils import RateLimitingFilter
+```
 - on a basic level this filter can be added to a logger or a logging handler
 - this filter takes multiple optional keywords with key as log_level and value as a dict with 3 keys
 ```
